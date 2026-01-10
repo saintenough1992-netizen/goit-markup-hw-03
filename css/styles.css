@@ -37,6 +37,10 @@ h3, h2{
     color: #2E2F42;
     letter-spacing: 0.02em;
 }
+.container{
+    max-width:1440px;
+    margin: 0 auto;
+}
 .header_main .container{
     display: flex;
     justify-content: space-between;
@@ -47,11 +51,11 @@ h3, h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 96px;
+    gap: 86px;
 }
 .header_nav{
     display: flex;
-    gap: 30px;
+    gap: 40px;
 
 }
 .header_nav a:hover,
@@ -89,6 +93,8 @@ h3, h2{
 }
 .banner_main{
     background-color: #2E2F42;
+    padding-top:188px;
+    padding-bottom: 188px;
 }
 .banner_main h1{
     color: #fff;
@@ -96,8 +102,11 @@ h3, h2{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
 }
 .banner_main button{
+    display: block;
     background-color: #4D5AE5;
     color: #fff;
     font-weight: 500;
@@ -105,6 +114,10 @@ h3, h2{
     letter-spacing: 0.04em;
     font-size: 16px;
     line-height: 1.5;
+    padding: 16px 32px;
+    margin:48px auto 0 auto;
+    border:none;
+    border-radius: 4px;
 }
 .banner_main button:hover,
 .banner_main button:focus{
