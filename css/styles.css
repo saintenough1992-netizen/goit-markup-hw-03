@@ -47,11 +47,12 @@ h3, h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 96px;
 }
 .header_nav{
     display: flex;
     gap: 30px;
-    margin-left: 96px;
+
 }
 .header_nav a:hover,
 .header_nav a:focus{
