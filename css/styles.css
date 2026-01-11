@@ -1,3 +1,4 @@
+/* General Settings */
 body{
     box-sizing: border-box;
     margin:0;
@@ -13,7 +14,7 @@ a{
     text-decoration: none;
     color:#2E2F42;
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6, p{
     margin: 0;
     padding: 0;
 }
@@ -21,6 +22,9 @@ ul, ol{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+.hidden{
+    display: none;
 }
 .header_nav, h3 {
     font-weight: 500;
@@ -38,14 +42,15 @@ h3, h2{
     letter-spacing: 0.02em;
 }
 .container{
-    max-width:1440px;
+    width:1158px;
     margin: 0 auto;
 }
+/* HEADER SECTION STYLING */
 .header_main .container{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    padding: 24px 156px;
+    align-items: center;
+    padding: 24px 0;
 }
 .main_nav{
     display: flex;
@@ -91,6 +96,7 @@ h3, h2{
 .header_address a:focus{
     color: #404BBF;
 }
+/* BANNER SECTION STYLING */
 .banner_main{
     background-color: #2E2F42;
     padding-top:188px;
@@ -123,6 +129,20 @@ h3, h2{
 .banner_main button:focus{
     background-color: #404BBF;
 }
+/* FEATURES SECTION STYLING */
+.features ul{
+   display: flex;
+   justify-content: space-around;
+   gap: 24px;
+   padding: 120px 0;
+}
+.features li{
+    width: 264px;
+}
+.features p{
+    margin-top: 8px;
+}
+/* TEAM SECTION STYLING */
 .our_team{
     background-color: #F4F4FD;
 }
@@ -136,10 +156,12 @@ h3, h2{
 .team_card img{
     text-align-last: left;
 }
+/* PORTFOLIO SECTION STYLING */
 .our_portfolio img{
     width: 360px;
     height: 300px;
 }
+/* FOOTER SECTION STYLING */
 .footer_main{
     background-color: #2E2F42;
     color: #F4F4FD;
